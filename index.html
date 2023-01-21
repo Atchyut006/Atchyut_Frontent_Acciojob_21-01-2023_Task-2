@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="text-details">
+                <div class="input-box">
+                    <span class="input-box">Text Field</span>
+                    <input type="text" placeholder="Input Text">
+                </div>
+                <div class="input-box">
+                    <span class="input-box">Select Field</span>
+                    <select id="select">
+                        <option value="Field">Select Field</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Civil">Civil</option>
+                </div>
+                <div class="input-box">
+                    <span class="input-box">Text Area</span>
+                    <textarea name="Text Area" id="Text Area" cols="30" rows="4">Text Area</textarea>
+                </div>
+                <div class="InputAddOn">
+                    <span class="InputAddOn-item">Label</span>
+                    <input class="text">
+                    <button class="InputAddOn-item">Button</button>
+                </div>
+                <div class="input-box">
+                    <span class="input-box"></span>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="input-box">
+                    <button onclick="decrement()">-</button><input id="Input" type="number" min="0" max="110"><button onclick="increment()">+</button>
+                </div>
+                <div class="input-box">
+                    <input type="checkbox">Checkbox
+                </div>
+                <div class="input-box">
+                    <input type="radio">Radio Button
+                </div>
+                <div class="input-box">
+                    Switch
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
